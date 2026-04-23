@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #fdf8f8;
+}
+
+header {
+    background: #fc0404;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Slideshow */
+.slideshow {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+/* Products */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
